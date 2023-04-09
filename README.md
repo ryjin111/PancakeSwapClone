@@ -1,41 +1,11 @@
 Using node v12+
 ## Preparing source
 
-- Clone `pancake-swap-core`
-```
-git clone git@github.com:pancakeswap/pancake-swap-core.git
-cd pancake-swap-core
-git checkout -b factory 3b214306770e86bc3a64e67c2b5bdb566b4e94a7
-yarn install
-yarn compile
-```
+- Clone `The Whole Repository`
 
-
-- Clone `pancake-swap-periphery`
-```
-git clone git@github.com:pancakeswap/pancake-swap-periphery.git
-cd pancake-swap-periphery
-git checkout -b router d769a6d136b74fde82502ec2f9334acc1afc0732
-yarn install
-yarn add @uniswap/v2-core@"file:../pancake-swap-core"
-yarn compile
-```
-
-- Clone `pancake-swap-interface-v1`
-```
-git clone git@github.com:pancakeswap/pancake-swap-interface-v1.git
-cd pancake-swap-interface-v1
-git checkout -b v1 0257017f2daaae2f67c24ded70b5829f74a01b3c
-yarn install
-```
 
 
 ## Setup
-
-### Install contract merger: https://www.npmjs.com/package/sol-merger
-```
-npm install sol-merger -g
-```
 
 ### Prepare `PancakeFactory` and `PancakeRouter`
 ```
