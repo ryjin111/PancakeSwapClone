@@ -4,17 +4,6 @@ Using node v12+
 - Clone `The Whole Repository`
 
 
-
-## Setup
-
-### Prepare `PancakeFactory` and `PancakeRouter`
-```
-sol-merger pancake-swap-core/contracts/PancakeFactory.sol ./build
-sol-merger pancake-swap-core/contracts/PancakePair.sol ./build
-sol-merger pancake-swap-periphery/contracts/PancakeRouter01.sol ./build
-sol-merger pancake-swap-periphery/contracts/PancakeRouter.sol ./build
-```
-
 ### Deploy `PancakeFactory` and `PancakeRouter`
 
 - Access: https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.5.16+commit.9c3226ce.js
